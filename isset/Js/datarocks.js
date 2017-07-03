@@ -1,4 +1,3 @@
-/*Inicio*/
 $(document).ready(function(){
   var btn_go = $("#btn-go");
   btn_go.on("click", function(){
