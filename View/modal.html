@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="../isset/css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="../isset/css/materialize.min.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATAROCKS</title>
+</head>
+
+<body>
+  <!-- Modal Trigger -->
+<button data-target="cargarDatos" class="btn">Modal</button>
+
+<!-- Modal Structure -->
+<div id="cargarDatos" class="modal modal-fixed-footer modal-width">
+  <h5 class="center color_fondo">Encabezado de la modal</h5>
+  <div class="divider"></div>
+  <div class="modal-content contenedor">
+    <div class="media">
+      <img src="../isset/img/logo.png" alt="">
+    </div>
+      <div class="col s12 lg12">
+        <div class="card-panel">
+          <span class="">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+      <div class="col s12 lg12">
+        <div class="card-panel">
+          <span class="">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+      <div class="col s12 lg12">
+        <div class="card-panel">
+          <span class="">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+      </div>
+      <div class="col s12 lg12">
+        <div class="card-panel">
+          <span class="">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancelar</a>
+    <a href="#!" class="modal-action waves-effect waves-green btn-flat" id="guardar">Aceptar</a>
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../isset/Js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../isset/Js/datarocks.js"></script>
+<script type="text/javascript" src="../isset/Js/materialize.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.modal').modal();
+
+  $("#guardar").on('click',function(){
+    console.log("guardar");
+  })
+});
+
+</script>

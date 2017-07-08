@@ -1,19 +1,6 @@
-@font-face {
-  font-family: "PlaylistCaps";
-  src: url('../fonts/PlaylistCaps.otf');
-}
-@font-face {
-  font-family: "PlaylistScript";
-  src: url('../fonts/PlaylistScript.otf');
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
-}
-
 body {
   /*font-family: Helvetica, Futura, Arial, Verdana;*/
+  background: #EEEEEE;
 }
 
 .bar {
@@ -100,4 +87,162 @@ input:validate {
 .text_rockers span{
   color: #ff0000;
   font-family: "PlaylistCaps";
+}
+.removepadding .col {
+  padding: 0 !important;
+}
+.container-card{
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.removepadding .col {
+  padding: 0 !important;
+}
+
+.container-card {
+  width: 90%;
+  margin: 20px auto 0px auto;
+}
+
+.removepadding .sidemenu .side-nav {
+  width: 25%;
+}
+
+.removepadding .sidemenu .side-nav .user-view-backgroud {
+  background: #212121;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left top, #E53935, #212121);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #E53935, #212121);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #E53935, #212121);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #E53935, #212121);
+  /* Standard syntax */
+  background: linear-gradient(left top, #E53935, #212121);
+}
+
+.removepadding .sidemenu .side-nav .user-view-backgroud .img-flotante {
+  width: 35%;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante {
+  width: 65%;
+  padding: 0;
+}
+
+.removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante .nombre {
+  margin: 0;
+}
+
+.removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante .correo {
+  margin: 0;
+}
+
+.removepadding .contenedor-principal .color {
+  background: #E53935;
+  padding-left: 10px;
+}
+
+.removepadding .sidemenu .side-nav .input-field-width {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.removepadding .sidemenu .boton-menu-side {
+  background: #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.removepadding .sidemenu .boton-menu-side .color-icon {
+  color: #fff;
+}
+
+@font-face {
+  font-family: "PlaylistCaps";
+  src: url('../fonts/PlaylistCaps.otf');
+}
+@font-face {
+  font-family: "PlaylistScript";
+  src: url('../fonts/PlaylistScript.otf');
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.modal-width{
+  width: 90% !important;
+}
+
+#cargarDatos .contenedor{
+  width: 100%;
+  padding: 20px 80px; 
+  background: #EEEEEE;
+}
+
+#cargarDatos .contenedor .media{
+width: 100%;
+}
+#cargarDatos .contenedor .media img{
+width: 100%;
+}
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width:992px) {
+  .removepadding .sidemenu .side-nav {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #cargarDatos .contenedor{
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .removepadding .sidemenu .side-nav {
+    width: 60%;
+  }
+  .removepadding .sidemenu .side-nav .user-view-backgroud {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .removepadding .sidemenu .side-nav .user-view-backgroud .img-flotante {
+    width: 100%;
+  }
+  .removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante {
+    width: 100%;
+  }
 }
