@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="../isset/css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="../isset/css/materialize.min.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DATAROCKS</title>
+</head>
+
+<body>
+  <div class="row removepadding">
+    <div class="col s12 m12 l3 sidemenu">
+      <ul id="slide-out" class="side-nav fixed">
+        <li>
+          <div class="user-view user-view-backgroud">
+            <a href="#!user" class="img-flotante"><img class="circle" src="../isset/img/yuna.jpg" width="80px" height="80px"></a>
+            <div class="nav-flotante">
+              <p class="white-text nombre">Nombre Apellido</p>
+              <p class="white-text correo">Correo@correo.com</p>
+            </div>
+          </div>
+        </li>
+        <div class="input-field input-field-width">
+          <i class="material-icons prefix">search</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Buscar</label>
+        </div>
+        <li>
+          <div class="divider"></div>
+        </li>
+      </ul>
+      <div class="boton-menu-side">
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons color-icon">menu</i></a>
+      </div>
+
+    </div>
+    <div class="col s12 m12 l9 contenedor-principal">
+      <nav class="color">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">DATAROCKS</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="badges.html"><i class="material-icons right">input</i>Cerrar Sesion</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="encabezado">
+        <h1 class="titulo4">Cargar Informacion</h1>
+        <div class="add">
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn" href="#modal1">Add</a>
+         <!-- Modal Structure -->
+         <div id="modal1" class="modal">
+             <div class="modal-content">
+                 <h4>Completar el siguiente formulario</h4>
+
+                     <div class="row">
+                         <div class="input-field col s6">
+                             <input id="first_name2" type="text" class="validate">
+                             <label class="active" for="first_name2">Titulo</label>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name2" type="text" class="validate">
+                            <label class="active" for="first_name2">Descripción</label>
+                        </div>
+                   </div>
+                   <div class="row">
+                       <div class="input-field col s6">
+                           <input id="first_name2" type="text" class="validate">
+                           <label class="active" for="first_name2">Videos</label>
+                       </div>
+                  </div>
+                  <form action="#">
+                      <div class="file-field input-field">
+                          <div class="btn">
+                            <span>File</span>
+                            <input type="file" multiple>
+                          </div>
+                          <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                          </div>
+                      </div>
+                 </form>
+                 <a class="waves-effect waves-light btn">Save</a>
+                 <a class="waves-effect waves-light btn">Cancel</a>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+       </div>
+        </div>
+      </section>
+
+      <table class="striped tamaño">
+       <thead>
+         <tr>
+             <th>Id</th>
+             <th>Titúlo</th>
+             <th>Contenido</th>
+             <th>Editar</th>
+             <th>Eliminar</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td> 1 </td>
+           <td> Ventas OGV </td>
+           <td> Se encuentras las estrategias de ventas paras las empresas de proyectos OGV </td>
+           <td>  <a class="btn-floating btn-large waves-effect waves-light black ">Edit</a> </td>
+           <td>  <a class="btn-floating btn-large waves-effect waves-light red ">Dele</a> </td>
+         </tr>
+         <tr>
+           <td> 2 </td>
+           <td> LEAD TXP </td>
+           <td> Información donde se emplica de que como se hace y actividades con el LEAD</td>
+           <td> <a class="btn-floating btn-large waves-effect waves-light black ">Edit</a> </td>
+           <td> <a class="btn-floating btn-large waves-effect waves-light red ">Dele</a> </td>
+         </tr>
+         <tr>
+           <td> 3 </td>
+           <td> Convenios UR </td>
+           <td> Convenios con las universidades aliadas</td>
+           <td> <a class="btn-floating btn-large waves-effect waves-light black ">Edit</a> </td>
+           <td> <a class="btn-floating btn-large waves-effect waves-light red ">Dele</a> </td>
+         </tr>
+       </tbody>
+     </table>
+    </div>
+  </div>
+</body>
+
+</html>
+<script type="text/javascript" src="../isset/Js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../isset/Js/datarocks.js"></script>
+<script type="text/javascript" src="../isset/Js/materialize.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".button-collapse").sideNav();
+  });
+
+
+
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  $('#modal1').modal('open');
+  $('#modal1').modal('close');
+</script>
