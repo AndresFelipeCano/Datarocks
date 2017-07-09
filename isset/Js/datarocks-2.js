@@ -7,7 +7,7 @@ if (user != null) {
   user.providerData.forEach(function (profile) {
     txtEmail.html(profile.email);
     txtNombre.html(profile.displayName);
-    imgFoto.attr("scr",profile.photoURL);
+    imgFoto.attr("src",profile.photoURL);
     console.log("Sign-in provider: "+profile.providerId);
     console.log("  Provider-specific UID: "+profile.uid);
     console.log("  Name: "+profile.displayName);
