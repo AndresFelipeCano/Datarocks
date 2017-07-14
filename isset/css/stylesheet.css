@@ -17,7 +17,7 @@ body {
 }
 
 .bar {
-  color: black
+  color: black;
 }
 
 .head {
@@ -47,22 +47,23 @@ input:validate {
 .input-field input[type=text]:focus+label {
   color: #000000;
 }
-.banner {
+
+.banner nav-wrapper{
+  position: absolute;
   background-color: rgb(255,0,24)!important;
+  width: 50px;
+  height: 100px;
 }
-.font_banner {
-  margin: 17px 0 0 0;
-}
+
 .font_banner b{
   color: #ffffff;
-  margin: 10px 0 0 0;
   font-size: 60px;
   font-family: "PlaylistCaps";
 }
 .video1 video{
   position: fixed;
-     top: 50%;
-     left: 50%;
+     top: 100%;
+     left: 100%;
      min-width: 100%;
      min-height: 100%;
      width: auto;
@@ -250,10 +251,6 @@ body {
   height: 110px
 }
 
-.brand-logo {
-  /*-webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px;*/
-}
 
 put-field:email {
   color: green;
@@ -293,16 +290,36 @@ input:validate {
   font-size: 60px;
   font-family: "PlaylistCaps";
 }
+.font_banner1 b{
+  color: red;
+  margin: 10px 0 0 0;
+  font-size: 60px;
+  font-family: "PlaylistCaps";
+}
+.btnLogin{
+  color: red;
+  font-size: 40px;
+  font-family: "PlaylistCaps";
+  background-color: #DCDCDC;
+  height: 80px;
+  border: white 2px solid;
+  text-align: bottom;
+  opacity: 0.5;
+}
 .video1 video{
   position: fixed;
-     top: 50%;
-     left: 50%;
-     min-width: 100%;
-     min-height: 100%;
-     width: auto;
-     height: auto;
-     z-index: -100;
-     transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  float: both;
+}
+.video1 responsive-video{
+
 }
 #btn-go{
   position: absolute;
@@ -483,5 +500,7 @@ width: 100%;
   .removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante {
     width: 100%;
   }
+  
+
 }
 >>>>>>> origin/master
