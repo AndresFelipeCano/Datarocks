@@ -15,5 +15,15 @@ if (user != null) {
     console.log("  Photo URL: "+profile.photoURL);
   });
 }
+var btn_out = $("#btn-out");
+btn_out.on("click", function(){
+    firebase.auth().signOut().then(function() {
+  // Sign-out successful.
+  user=null;
+  location.href="index.html"
+}, function(error) {
+  // An error happened.
+});
+}
 })
   

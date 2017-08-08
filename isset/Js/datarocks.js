@@ -9,7 +9,9 @@ $(document).ready(function(){
         var token = result.credential.accessToken;
         // ...
         //Log in successfull
-        
+        //location.href = "tercera.html"
+        window.location.href = "https://www.youtube.com/";
+
       }
       // The signed-in user info.
       var user = result.user;
@@ -24,10 +26,10 @@ $(document).ready(function(){
       var credential = error.credential;
       // ...
     });
-    firebase.auth().signOut().then(function() {
-      // Sign-out successful.
-    }, function(error) {
+//    firebase.auth().signOut().then(function() {
+ //     // Sign-out successful.
+  //  }, function(error) {
       // An error happened.
-    }); 
+  //  }); 
   });
  });
