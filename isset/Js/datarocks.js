@@ -1,5 +1,12 @@
 $(document).ready(function(){
+
   var btn_go = $("#btn-go");
+  firebase.auth().onAuthStateChanged(function(user) {
+    
+    if (user) {
+      location.href="tercera.html";
+    } 
+  });
   btn_go.on("click", function(){
     var provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithRedirect(provider);
