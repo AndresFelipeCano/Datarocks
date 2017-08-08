@@ -19,11 +19,7 @@ body {
 }
 
 .bar {
-<<<<<<< HEAD
     color: black
-=======
-  color: black;
->>>>>>> 609cf9e01b00c643fc79bee81e4e22cdac217f24
 }
 
 .head {
@@ -78,7 +74,6 @@ input:validate {
     color: #000000;
 }
 
-<<<<<<< HEAD
 .banner {
     background-color: rgb(255, 0, 24)!important;
 }
@@ -120,74 +115,6 @@ input:validate {
     right: 550px;
     line-height: 70px;
     text-shadow: 0 0 15px #FFF;
-=======
-.banner nav-wrapper{
-  position: absolute;
-  background-color: rgb(255,0,24)!important;
-  width: 50px;
-  height: 100px;
-}
-
-.font_banner b{
-  color: #ffffff;
-  font-size: 60px;
-  font-family: "PlaylistCaps";
-}
-.video1 video{
-  position: fixed;
-     top: 100%;
-     left: 100%;
-     min-width: 100%;
-     min-height: 100%;
-     width: auto;
-     height: auto;
-     z-index: -100;
-     transform: translateX(-50%) translateY(-50%);
-}
-#btn-go{
-  position: absolute;
-  bottom: 20px;
-  right:20px;
-
-}
-.text_rockers h3{
-  font-size: 80px;
-  font-family: "PlaylistScript";
-  position: absolute;
-  bottom: 40px;
-  right:550px;
-  line-height: 70px;
-  text-shadow: 0 0 15px #FFF;
-}
-.encabezado{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.titulo4{
-  width: 70%;
-  font-family: "PlaylistCaps";
-  text-align: center
-}
-.add{
-  width: 30%;
-  padding: 45px;
-}
-.add a{
-  align-items: left;
-}
-.tamaño{
-  width: 85%;
-  margin: 0 60px;
-  padding: 30px;
-}
-.text_rockers .letra{
-  font-family: "PlaylistScript";
-}
-.text_rockers span{
-  color: #ff0000;
-  font-family: "PlaylistCaps";
->>>>>>> 609cf9e01b00c643fc79bee81e4e22cdac217f24
 }
 
 .encabezado {
@@ -362,13 +289,10 @@ input:validate {
     height: 110px
 }
 
-<<<<<<< HEAD
 .brand-logo {
     /*-webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2px;*/
 }
-=======
->>>>>>> 609cf9e01b00c643fc79bee81e4e22cdac217f24
 
 put-field:email {
     color: green;
@@ -401,70 +325,7 @@ input:validate {
 }
 
 .font_banner {
-<<<<<<< HEAD
     margin: 17px 0 0 0;
-=======
-  margin: 17px 0 0 0;
-}
-.font_banner b{
-  color: #ffffff;
-  margin: 10px 0 0 0;
-  font-size: 60px;
-  font-family: "PlaylistCaps";
-}
-.font_banner1 b{
-  color: red;
-  margin: 10px 0 0 0;
-  font-size: 60px;
-  font-family: "PlaylistCaps";
-}
-.btnLogin{
-  color: red;
-  font-size: 40px;
-  font-family: "PlaylistCaps";
-  background-color: #DCDCDC;
-  height: 80px;
-  border: white 2px solid;
-  text-align: bottom;
-  opacity: 0.5;
-}
-.video1 video{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  float: both;
-}
-.video1 responsive-video{
-
-}
-#btn-go{
-  position: absolute;
-  bottom: 20px;
-  right:20px;
-
-}
-.text_rockers h3{
-  font-size: 80px;
-  font-family: "PlaylistScript";
-  position: absolute;
-  bottom: 40px;
-  right:550px;
-  line-height: 70px;
-  text-shadow: 0 0 15px #FFF;
-}
-.text_rockers .letra{
-  font-family: "PlaylistScript";
-}
-.text_rockers span{
-  color: #ff0000;
-  font-family: "PlaylistCaps";
->>>>>>> 609cf9e01b00c643fc79bee81e4e22cdac217f24
 }
 
 .font_banner b {
@@ -649,7 +510,6 @@ input:validate {
 }
 
 @media screen and (max-width:600px) {
-<<<<<<< HEAD
     #cargarDatos .contenedor {
         width: 100%;
         padding: 20px 20px;
@@ -674,32 +534,3 @@ input:validate {
         width: 100%;
     }
 }
-=======
-  #cargarDatos .contenedor{
-    width: 100%;
-    padding: 20px 20px;
-  }
-  .removepadding .sidemenu .side-nav {
-    width: 60%;
-  }
-  .removepadding .sidemenu .side-nav .user-view-backgroud {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .removepadding .sidemenu .side-nav .user-view-backgroud .img-flotante {
-    width: 100%;
-  }
-  .removepadding .sidemenu .side-nav .user-view-backgroud .nav-flotante {
-    width: 100%;
-  }
-  
-
-}
->>>>>>> origin/master
->>>>>>> 609cf9e01b00c643fc79bee81e4e22cdac217f24
